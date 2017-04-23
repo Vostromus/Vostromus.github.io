@@ -49,6 +49,7 @@
         defaultExtension: 'js'
       },
       lodash : { main:'lodash.js', defaultExtension:'js'}
-    }
+    },
+    baseURL: '/Vostromus.github.io/'
   });
 })(this);
