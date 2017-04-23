@@ -11,7 +11,7 @@
     // map tells the System loader where to look for things
     map: {
       // our app is within the app folder
-      //'app': 'app',
+      'app': './app',
 
       // angular bundles
       '@angular/animations': 'npm:@angular/animations/bundles/animations.umd.js',
@@ -33,7 +33,7 @@
       'rxjs':                      'npm:rxjs',
       'lodash': 'npm:lodash',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
-      'app' : './app/app.module.js'
+      
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -49,7 +49,8 @@
       rxjs: {
         defaultExtension: 'js'
       },
-      lodash : { main:'lodash.js', defaultExtension:'js'}
+      lodash : { main:'lodash.js', defaultExtension:'js'},
+      
     },
     exclude:[]
   });
