@@ -50,6 +50,7 @@
       },
       lodash : { main:'lodash.js', defaultExtension:'js'}
     },
-    baseURL: 'Vostromus.github.io/'
+    baseURL: 'Vostromus.github.io/',
+    exclude:[]
   });
 })(this);
