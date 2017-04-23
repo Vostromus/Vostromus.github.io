@@ -1,0 +1,12 @@
+<div>
+<span>Teams</span><select name="select"> <!--Supplement an id here instead of using 'name'-->
+  <option *ngFor="let team of teams" value="{{team.teamName}}">{{team.teamName}}</option>  
+</select>
+<span>Appearence</span><select name="select"> <!--Supplement an id here instead of using 'name'-->
+  <option *ngFor="let movie of movies" value="{{movie}}">{{movie}}</option>  
+</select>
+</div>
+
+
+
+          
